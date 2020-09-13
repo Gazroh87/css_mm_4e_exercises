@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Gary R Hughes" />
+	<title>CSS Typography</title>
+	<link href="http://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<style>
+		html {
+			font-family: "PTSans", Arial, sans-serif;
+			font-size: 62.5%;
+			background: rgb(225, 238, 253) url(../images/bg_body.png) repeat-x;
+		}
+
+		.main {
+			max-width: 740px;
+			margin: 0 auto;
+			padding: 0 10px;
+			border: 4px solid white;
+			background: transparent url(../images/bg_banner.jpg) no-repeat;
+			float: none;
+            width: 75%;
+		}
+
+		.main h2 {
+			font: normal 3.5em "Slabo 27px", Garamond, Times, serif;
+			color: rgb(37, 76, 143);
+			border-bottom: 1px solid rgb(200, 200, 200);
+			margin-top: 25px;
+		}
+
+		.main p {
+			font-size: 1.8em;
+			line-height: 1.5;
+			margin-left: 150px;
+			margin-right: 50px;
+			margin-bottom: 10px;
+		}
+
+		.main p::first-line {
+			font-weight: bold;
+			color: rgb(153, 153, 153);
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="main">
+		<h1><strong>CSS</strong> The Missing Manual</h1>
+		<h2>Exploring Typographic Possibilities</h2>
+		<p class="byline">November 30th <strong>Rod Dibble</strong></p>
+		<ul>
+			<li>Lorem Ipsum</li>
+			<li>Reprehenderit qui in ea</li>
+			<li>Lorem Ipsum</li>
+			<li>Reprehenderit qui in ea</li>
+			<li>Lorem Ipsum</li>
+			<li>Reprehenderit qui in ea</li>
+		</ul>
+		<h3>Esse quam nulla</h3>
+		<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+			ea commodi consequatur?
+			<em>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</em>
+			Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+			ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+			molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		<h3>Quis autem vel eum</h3>
+		<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+			ea commodi consequatur?
+			<strong>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </strong>Ut
+			enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+			commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+			molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	</div>
+</body>
+
+</html>
